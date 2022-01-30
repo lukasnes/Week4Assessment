@@ -1,0 +1,144 @@
+.container {
+    background-color: #326273;
+}
+#complimentButton {
+    position:relative;
+    background-color: #ffffff;
+    border-color: #e39774;
+    color: #326273;
+    border-radius: 25%;
+    width: 25%;
+    height: 25%;
+    left: 50%;
+    top: 50%;
+    margin-left: -12.5%;
+    margin-top: -12.5%;
+}
+.complimentQuarter {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 0px;
+    top: 0px;
+    border-radius: 10%;
+    background-image: url(../pictures/Clapping.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: #5c9ead;
+}
+.fortuneQuarter {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    right: 0px;
+    top: 0px;
+    border-radius: 10%;
+    background-color: #e39774;
+}
+#fortuneCookie {
+    position: relative;
+    background-image: url(../pictures/FortuneCookie.png);
+    background-color: #5c9ead;
+    background-size: 100% 100%;
+    width: 25%;
+    height: 25%;
+    border-radius: 25%;
+    left: 50%;
+    top: 50%;
+    margin-left: -12.5%;
+    margin-top: -12.5%;
+    color: #326273
+}
+.namesListQuarter {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+    background-color: #e39774;
+}
+#form {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+}
+#toDoList {
+    background-color: #eeeeee;
+    color: #326273;
+}
+#toDo {
+    background-color: #e39774;
+    color: #eeeeee;
+    border-radius: 25%;
+}
+#list {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -25%;
+    background-color: #5c9ead;
+    color: #ffffff;
+    border-radius: 15%;
+    text-align: center;
+    text-indent: -50px;
+    list-style-type: numbers;
+    list-style-position: inside;
+}
+#form2 {
+    position: absolute;
+    width: 75%;
+    height: 25%;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -25%;
+}
+#checknames{
+    background-color: #eeeeee;
+    color: #326273;
+}
+#getName {
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 25%;
+    background-color: #e39774;
+    color: #ffffff;
+}
+#forget {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../pictures/Tombstone.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-color: #5c9ead;
+    border-radius: 10%;
+}
+#theLost {
+    position:absolute;
+    width: 30%;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -15%;
+    background-color: #326273;
+    color: #eeeeee;
+    border-radius: 25%;
+}
+#list2 {
+    position: relative;
+    width: 20%;
+    left: 50%;
+    top: 30px;
+    margin-left: -10%;
+    color: #ffffff;
+    list-style-type: numbers;
+    list-style-position: inside;
+}
